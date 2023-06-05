@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  /* font-family: 'League Spartan', sans-serif; */
+}
+
+.polygon_wrapper{ 
+  filter: drop-shadow(0px -1px 11px  rgba(50, 50, 0, 0.5));
+  
+}
+
+.hexagon {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 47%, 75% 100%, 25% 100%, 0 48%);
+    
+}
+
+
+
+
+.text_gradient {
+    background: linear-gradient(96.73deg, #C1292A 27.66%, #D0631A 85.99%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+
+  .right-to-left {
+    direction: rtl;
+  }
+
+  .slick-slide div  {
+    margin-right: 20px;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .slick-slide div {
+      margin-right: 0px;
+    }
+  }
+
+  .slick-arrow {
+    margin-top: -60px;
+  } 
+  
