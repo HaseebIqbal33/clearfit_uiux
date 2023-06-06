@@ -1,7 +1,7 @@
 const GoodCodeContent = () => {
   return (
-    <div className="container mx-auto p-4 sm:p-16">
-      <div className="flex sm:p-10 p-2 flex-col sm:flex-row justify-evenly gap-10 tracking-widest">
+    <div className="container mx-auto p-4 md:p-16">
+      <div className="flex lg:p-10 p-2 flex-col md:flex-row justify-evenly gap-10 tracking-widest">
         {/* Left card */}
         <div className="flex items-center flex-col w-full sm:h-[400px] h-auto sm:w-[500px] bg-primary p-11 gap-8 justify-center  rounded-md">
           <h4 className="uppercase text-white font-normal text-3xl">
@@ -11,7 +11,7 @@ const GoodCodeContent = () => {
             I need someone <span className="font-bold text_gradient">GOOD</span>{" "}
             to do our heavy lifting.
           </p>
-          <p className=" text-center text-silver_grey text-3xl font-light">
+          <p className=" text-center text-silver_grey text-xl text font-light">
             (And I Don’t Have Time to Find Them)
           </p>
         </div>
@@ -30,7 +30,7 @@ const GoodCodeContent = () => {
             </span>{" "}
             advice
           </p>
-          <p className="text-silver_grey font-normal text-3xl text-center font-light">
+          <p className="text-center text-silver_grey text-xl text font-light">
             (And I Don’t Know Who to Trust)
           </p>
         </div>
