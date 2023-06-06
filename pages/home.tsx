@@ -2,15 +2,11 @@ import Layout from "@/components/common/layout";
 import Banner from "@/components/homepage/Banner";
 import ContactForm from "@/components/homepage/ContactForm";
 import ContentSection from "@/components/homepage/ContentSection";
-import CopyRight from "@/components/homepage/CopyRight";
 import CrossFitContent from "@/components/homepage/CrossFitConent";
-import Footer from "@/components/homepage/Footer";
 import FormSection from "@/components/homepage/FormSection";
 import GoodCodeContent from "@/components/homepage/GoodCodeSection";
-import Header from "@/components/homepage/Header";
 import HeroSection from "@/components/homepage/HeroSection";
 import HeroSectionContent from "@/components/homepage/HeroSectionContent";
-import NavBar from "@/components/homepage/NavBar";
 import SecondBanner from "@/components/homepage/SecondBanner";
 import SignatureSection from "@/components/homepage/SignatureSection";
 import SkillsPods from "@/components/homepage/SkillsPods";
@@ -26,7 +22,6 @@ const Home = () => {
       </Head>
       <Layout>
         <>
-          {" "}
           <HeroSection />
           <HeroSectionContent />
           <GoodCodeContent />
