@@ -1,3 +1,4 @@
+import Layout from "@/components/common/layout";
 import Banner from "@/components/homepage/Banner";
 import ContactForm from "@/components/homepage/ContactForm";
 import ContentSection from "@/components/homepage/ContentSection";
@@ -23,24 +24,25 @@ const Home = () => {
       <Head>
         <title>Home page</title>
       </Head>
-      <NavBar />
-      {/* <Header /> */}
-      <HeroSection />
-      <HeroSectionContent />
-      <GoodCodeContent />
-      <Banner />
-      <CrossFitContent />
-      <SecondBanner />
-      <SkillsPods />
-      <SignatureSection />
-      <Banner />
-      <SliderSection />
-      <ContentSection />
-      <FormSection />
-      <ContactForm />
-      <SocialMediaBanner />
-      <Footer />
-      <CopyRight />
+      <Layout>
+        <>
+          {" "}
+          <HeroSection />
+          <HeroSectionContent />
+          <GoodCodeContent />
+          <Banner />
+          <CrossFitContent />
+          <SecondBanner />
+          <SkillsPods />
+          <SignatureSection />
+          <Banner />
+          <SliderSection />
+          <ContentSection />
+          <FormSection />
+          <ContactForm />
+          <SocialMediaBanner />
+        </>
+      </Layout>
     </>
   );
 };
