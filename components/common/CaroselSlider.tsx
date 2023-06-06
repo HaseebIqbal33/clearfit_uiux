@@ -1,6 +1,10 @@
 import Slider from "react-slick";
 
-const CaroselSlider = ({ children }) => {
+interface CRProps {
+  children: any;
+}
+
+const CaroselSlider = ({ children }: CRProps) => {
   var settings = {
     dots: true,
     infinite: false,
