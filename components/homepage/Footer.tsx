@@ -38,7 +38,7 @@ const Footer = () => {
         <div className="lg:w-1/3 w-full  lg:p-10 p-2">
           <div className="flex flex-col gap-10">
             <div className="flex flex-col gap-2">
-              <h2 className="break-all text-white sm:text-2xl text-xl">
+              <h2 className="text-white sm:text-2xl text-xl">
                 SUBSCRIBE TO OUR BLOG
               </h2>
               <hr className=" w-48" />
@@ -50,11 +50,9 @@ const Footer = () => {
               className="bg-sliver_black text-white text-base pt-3 pl-3 h-14 rounded-lg"
             />
             <div className="flex flex-col gap-2">
-              <h2 className="break-all text-white sm:text-2xl text-xl">
-                GETTING HERE
-              </h2>
+              <h2 className=" text-white sm:text-2xl text-xl">GETTING HERE</h2>
               <hr className=" w-48" />
-              <p className="break-all text-silver_grey font-normal text-xl">
+              <p className=" text-silver_grey font-normal text-xl">
                 + VIEW MAP
               </p>
             </div>
@@ -63,7 +61,7 @@ const Footer = () => {
         <div className="lg:w-1/3 w-full  lg:p-10 p-2">
           <div className="flex flex-col gap-10">
             <div className="flex flex-col gap-2">
-              <h2 className="break-all text-silver_grey  text-2xl">Links</h2>
+              <h2 className=" text-silver_grey  text-2xl">Links</h2>
               <hr className=" w-40" />
             </div>
             <div
