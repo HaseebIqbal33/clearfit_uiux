@@ -13,7 +13,7 @@ const HeroSectionContent = () => {
           <HexagonBox source="/native.svg" text="React native" />
         </div>
       </div>
-      <div className=" bg-primary p-4">
+      <div className=" bg-primary p-4 min-h-[100px]">
         <div className="flex justify-between container mx-auto  text-left lg:text-center">
           <div className="flex  font-normal text-white text-2xl tracking-widest uppercase mx-auto gap-3 ">
             <div className=" break-all flex gap-2 items-start lg:items-center lg:flex-row flex-col text-silver_grey">
