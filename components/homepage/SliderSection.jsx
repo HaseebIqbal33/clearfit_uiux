@@ -44,9 +44,9 @@ const SliderSection = () => {
         </h1>
         <div className="">
           <CaroselSlider>
-            {data?.map((item) => {
+            {data?.map((item, index) => {
               return (
-                <div className=" h-96 w-1/5 flex flex-col gap-0 ">
+                <div className=" h-96 w-1/5 flex flex-col gap-0 " key={index}>
                   <div className="flex gap-4 bg-primary flex-col p-10 text-white tracking-widest text-left min-h-[300px]">
                     <h2 className="text-3xl ">{item?.title}</h2>
                     <p className="text-base font-normal">{item.description}</p>
