@@ -13,10 +13,12 @@ const ContactForm = () => {
         background: "url('white_background.png') ",
       }}
     >
-      <div className="container mx-auto flex md:flex-row flex-col p-10 md:p-28 gap-14 md:gap-6 ">
+      <div className="container mx-auto flex md:flex-row flex-col md:p-10 lg:p-10 xl:p-20 gap-14 md:gap-6 p-8 ">
         <div className="md:w-1/2 w-full  flex flex-col gap-6">
-          <h2 className="text-3xl uppercase text-primary ">Drop us a line.</h2>
-          <p className="text-xl text-black font-medium max-w-[380px]">
+          <h2 className="text-3xl uppercase text-primary font-medium ">
+            Drop us a line.
+          </h2>
+          <p className="sm:text-2xl text-xl text-black font-normal max-w-[380px]">
             Staying ahead of your competition is hard. We know this challenge
             very well. Let&apos;s work together to find the solution that&apos;s
             right for you.
@@ -33,7 +35,7 @@ const ContactForm = () => {
         </div>
         <div className="md:w-1/2 w-full flex justify-center items-center">
           <div
-            className="bg-white w-full md:w-4/5 mx-auto flex flex-col p-4 md:p-14 gap-6 rounded-xl"
+            className="bg-white w-full md:w-4/5 mx-auto flex flex-col p-4 lg:p-14 rounded-xl"
             style={{ boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)" }}
           >
             <div className="flex flex-col gap-2 ">
@@ -60,7 +62,7 @@ const ContactForm = () => {
               ></textarea>
             </div>
             <button
-              className=" p-2 pl-3 pr-3 lg:w-80 w-full text-center mx-auto font-semibold tracking-widest text-white"
+              className=" p-2 pl-3 pr-3 mt-3 w-56 xl:w-80 text-center mx-auto font-semibold tracking-widest text-white"
               style={{
                 background:
                   "linear-gradient(96.73deg, #C1292A 27.66%, #D0631A 85.99%)",

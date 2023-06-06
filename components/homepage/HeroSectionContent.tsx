@@ -1,6 +1,4 @@
-import { Content } from "next/font/google";
 import HexagonBox from "../common/HexagonBox";
-import SkillPodsImage from "../common/SkillPodsImage";
 
 const HeroSectionContent = () => {
   return (
