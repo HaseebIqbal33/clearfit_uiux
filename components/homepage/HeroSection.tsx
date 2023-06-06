@@ -2,7 +2,7 @@ const HeroSection = () => {
   const texts = ["", " ", " "];
   return (
     <div
-      className="min-h-[700px] sm:min-h-[650px] "
+      className="min-h-[550px] sm:min-h-[550px] "
       style={{
         background: "url('white_background.png') ",
       }}
@@ -10,13 +10,15 @@ const HeroSection = () => {
       <div className="container mx-auto">
         <div className="flex items-center  ">
           <div className=" w-full  flex  gap-5 flex-col p-10 sm:p-20">
-            <p className="tracking-widest font-medium text-primary sm:text-3xl text-2xl uppercase leading-extra-loose-50">
-              When you’re building software.
-            </p>
-            <p className="tracking-widest font-medium text-primary  sm:text-3xl text-2xl uppercase leading-extra-loose-80">
-              it needs to be{" "}
-              <span className="font-bold text_gradient">good.</span>
-            </p>
+            <div className="flex flex-col gap-0">
+              <p className="tracking-widest font-medium text-primary sm:text-3xl text-2xl uppercase ">
+                When you’re building software.
+              </p>
+              <p className="tracking-widest font-medium text-primary  sm:text-3xl text-2xl uppercase ">
+                it needs to be{" "}
+                <span className="font-bold text_gradient">good.</span>
+              </p>
+            </div>
             <p className="tracking-widest font-medium text-primary  sm:text-3xl text-2xl uppercase sm:leading-extra-loose-80 leading-10">
               Stop settling for less.
             </p>

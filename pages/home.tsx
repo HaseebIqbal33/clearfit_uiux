@@ -15,10 +15,14 @@ import SignatureSection from "@/components/homepage/SignatureSection";
 import SkillsPods from "@/components/homepage/SkillsPods";
 import SliderSection from "@/components/homepage/SliderSection";
 import SocialMediaBanner from "@/components/homepage/SocialMediaBanner";
+import Head from "next/head";
 
 const Home = () => {
   return (
     <>
+      <Head>
+        <title>Home page</title>
+      </Head>
       <NavBar />
       {/* <Header /> */}
       <HeroSection />
