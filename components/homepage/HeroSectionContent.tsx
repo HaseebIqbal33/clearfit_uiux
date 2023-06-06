@@ -7,7 +7,7 @@ const HeroSectionContent = () => {
         <div className="flex justify-between container mx-auto items-center flex-wrap relative -top-20 gap-4 p-2 sm:p-0">
           <HexagonBox source="/react.svg" text="React" />
           <HexagonBox source="/trace.svg" text=".Net" />
-          <HexagonBox source="/uxui.svg" text="React" />
+          <HexagonBox source="/uxui.svg" text="UX/UI" />
           <HexagonBox source="/aws.svg" text="AWS" />
           <HexagonBox source="/node.svg" text="React" />
           <HexagonBox source="/native.svg" text="React native" />

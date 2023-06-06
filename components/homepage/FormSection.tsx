@@ -1,13 +1,12 @@
+import SkillPodsBox from "../common/SkillPodsBox";
+
 const FormSection = () => {
   return (
     <div className="bg-primary">
       <div className="container mx-auto p-10">
-        <h1
-          className="text-center text-white text-4xl tracking-widest font-normal mb-4
-        "
-        >
+        <div className="text-center text-white text-4xl tracking-widest font-normal mb-8 flex justify-center">
           Let’s chat & develop your
-        </h1>
+        </div>
 
         <div className=" flex justify-between lg:justify-start xl:justify-center  flex-wrap gap-4">
           <div className="bg-sliver_black lg:w-72 w-full flex flex-row sm:flex-col gap-1 p-2 rounded-xl items-center sm:items-start h-16">
