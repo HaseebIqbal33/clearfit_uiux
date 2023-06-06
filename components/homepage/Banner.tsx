@@ -3,7 +3,7 @@ const Banner = () => {
     <div className=" bg-primary p-10">
       <div className="flex justify-between container mx-auto text-center">
         <div className="flex flex-wrap gap-6 items-center justify-center font-normal text-white text-2xl tracking-widest uppercase mx-auto ">
-          <p className=" break-all">It’s Time to Get GOOD</p>
+          <p>It’s Time to Get GOOD</p>
           <button
             className=" p-2 pl-3 pr-3 sm:w-80 w-full font-medium text-white tracking-widest"
             style={{

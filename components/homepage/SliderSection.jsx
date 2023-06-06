@@ -62,7 +62,7 @@ const SliderSection = () => {
               <div className="flex items-center gap-4 p-10 text-white tracking-widest text-left">
                 <div className="bg-black w-72 flex rounded-full gap-2">
                   <img
-                    src="./profile.png"
+                    src="./profilepic.png"
                     className="h-12 gap-2 w-12 object-contain"
                   />
                   <div className="flex flex-col ">
@@ -87,7 +87,7 @@ const SliderSection = () => {
               <div className="flex items-center gap-4 p-10 text-white tracking-widest text-left">
                 <div className="bg-black w-72 flex rounded-full gap-2">
                   <img
-                    src="./profile.png"
+                    src="./profilepic.png"
                     className="h-12 gap-2 w-12 object-contain"
                   />
                   <div className="flex flex-col ">
@@ -112,7 +112,7 @@ const SliderSection = () => {
               <div className="flex items-center gap-4 p-10 text-white tracking-widest text-left">
                 <div className="bg-black w-72 flex rounded-full gap-2">
                   <img
-                    src="./profile.png"
+                    src="./profilepic.png"
                     className="h-12 gap-2 w-12 object-contain"
                   />
                   <div className="flex flex-col ">
