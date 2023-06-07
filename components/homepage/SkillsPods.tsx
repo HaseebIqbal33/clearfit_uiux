@@ -14,7 +14,7 @@ const SkillsPods = () => {
           <SkillPodsBox text={"?"} />
         </div>
         <div className="font-light text-white text-xl  text-center tracking-widest flex flex-col ">
-          <div className="flex gap-2 sm:flex-row justify-center">
+          <div className="flex gap-2 sm:flex-row flex-wrap justify-center">
             <img src="./circle.png" className="h-10 w-10" alt="" />
             <span className="uppercase w-28">SkillPods</span>
             <p>
