@@ -3,8 +3,8 @@ import HexagonBox from "../common/HexagonBox";
 const HeroSectionContent = () => {
   return (
     <>
-      <div className=" bg-primary ">
-        <div className="flex justify-between container mx-auto items-center flex-wrap relative -top-20 gap-4 p-2 sm:p-0">
+      <div className=" bg-primary lg:px-20 px-0 ">
+        <div className="flex md:justify-between justify-center container mx-auto items-center lg:flex-nowrap  flex-wrap relative -top-16 md:-top-28 gap-4 p-2 sm:p-0">
           <HexagonBox source="/react.svg" text="React" />
           <HexagonBox source="/trace.svg" text=".Net" />
           <HexagonBox source="/uxui.svg" text="UX/UI" />

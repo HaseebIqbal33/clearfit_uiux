@@ -10,7 +10,7 @@ const NavBar = () => {
   ];
 
   return (
-    <nav className="bg-primary">
+    <nav className="bg-primary lg:px-20 px-0">
       <div className=" container mx-auto">
         <div className="flex justify-between h-11 items-center  p-2 sm:p-0">
           {/* Right part here */}

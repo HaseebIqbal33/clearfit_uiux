@@ -20,8 +20,6 @@ body {
 }
 
 
-
-
 .text_gradient {
     background: linear-gradient(96.73deg, #C1292A 27.66%, #D0631A 85.99%);
     -webkit-background-clip: text;
@@ -47,4 +45,8 @@ body {
   .slick-arrow {
     margin-top: -60px;
   } 
+
+.linear_gradient {
+  background: "linear-gradient(to top, #282828 50%, white 50%)"
+}
   

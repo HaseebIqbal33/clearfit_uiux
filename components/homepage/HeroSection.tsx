@@ -9,7 +9,7 @@ const HeroSection = () => {
     >
       <div className="container mx-auto">
         <div className="flex items-center  ">
-          <div className=" w-full  flex  gap-5 flex-col p-10 sm:p-20">
+          <div className=" w-full  flex  gap-5 flex-col p-20">
             <div className="flex flex-col gap-0">
               <p className="tracking-widest font-medium text-primary sm:text-3xl text-2xl uppercase ">
                 When you’re building software.

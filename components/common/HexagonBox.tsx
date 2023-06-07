@@ -8,18 +8,20 @@ interface HexgonProps {
 const HexagonBox = ({
   source,
   text,
-  height = "h-40",
-  width = "w-40",
+  height = "h-1/3",
+  width = "w-1/3",
 }: HexgonProps) => {
   return (
-    <div className="polygon_wrapper">
-      <div
-        className={`hexagon  ${
-          height + " " + width
-        }  flex justify-center items-center flex-col bg-white gap-2 rounded-3xl`}
-      >
-        <img src={source} className="h-12 w-12 object-contain  " />
-        <p className="text-sm text-primary font-semibold">{text}</p>
+    <div className="polygon_wrapper ">
+      <div className="relative">
+        <img
+          src="/polygon.png"
+          className="sm:h-52 sm:w-52 w-36 h-36  object-contain"
+        />
+        <div className="absolute top-0 flex justify-center items-center flex-col bottom-0 left-0 right-0">
+          <img src={source} className={`${height} ${width}`} />
+          <span className=" text-xs">{text}</span>
+        </div>
       </div>
     </div>
   );

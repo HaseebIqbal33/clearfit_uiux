@@ -8,7 +8,7 @@ const CrossFitContent = () => {
         background: "url('white_background.png') ",
       }}
     >
-      <div className="container mx-auto">
+      <div className="container mx-auto lg:px-20 px-0">
         <div className="flex justify-end container mx-auto p-8  lg:p-28 ">
           <div className="w-full md:w-1/2 text-xl tracking-widest text-primary right-to-left">
             <h1 className="tracking-widest md:text-3xl text-xl uppercase font-semibold mb-5  ">
@@ -38,22 +38,22 @@ const CrossFitContent = () => {
             <HexagonBox
               source={"./engineers.svg"}
               text={"Engineers"}
-              height=" h-44"
-              width="w-44"
+              height=" h-20"
+              width="w-20"
             />
             <HexagonBox
               source={"./ui.svg"}
               text={"UX DESIGNERS"}
-              height="h-44"
-              width="w-44"
+              height=" h-20"
+              width="w-20"
             />
           </div>
           <div>
             <HexagonBox
               source={"./developers.svg"}
               text={"DEVELOPERS"}
-              height="h-44"
-              width="w-44"
+              height="h-20"
+              width="w-20"
             />
           </div>
         </div>
