@@ -1,4 +1,5 @@
 import HexagonBox from "../common/HexagonBox";
+import SkillPodsBox from "../common/SkillPodsBox";
 
 const HeroSectionContent = () => {
   return (
@@ -13,16 +14,17 @@ const HeroSectionContent = () => {
           <HexagonBox source="/native.svg" text="React native" />
         </div>
       </div>
-      <div className=" bg-primary p-4 min-h-[100px]">
+      <div className=" bg-primary py-4 px-3 xl:px-2 min-h-[100px]">
         <div className="flex justify-between container mx-auto  text-left lg:text-center">
-          <div className="flex  font-normal text-white text-2xl tracking-widest uppercase mx-auto gap-3 ">
-            <div className=" break-all flex gap-2 items-start lg:items-center lg:flex-row flex-col text-silver_grey">
-              Get the DEV team you deserve with ClearFit
-              <div className="flex gap-2 ">
+          <div className="flex  font-normal text-white text-2xl tracking-widest uppercase mx-auto gap-2 ">
+            <div className=" flex items-start lg:items-center lg:flex-row flex-col text-silver_grey">
+              Get the DEV team you deserve with ClearFit &nbsp;
+              <SkillPodsBox />
+              {/* <div className="flex gap-2 ">
                 <img src="./circle.png" alt="" />
                 <span>SkillPods</span>
-              </div>
-              We&apos;re GOOD
+              </div> */}
+              &nbsp; We&apos;re GOOD
             </div>
           </div>
         </div>

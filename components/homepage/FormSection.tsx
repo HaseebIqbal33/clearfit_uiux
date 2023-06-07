@@ -9,7 +9,7 @@ const FormSection = () => {
         </div>
 
         <div className=" flex justify-between lg:justify-start xl:justify-center  flex-wrap gap-4">
-          <div className="bg-sliver_black lg:w-72 w-full flex flex-row sm:flex-col gap-1 p-2 rounded-xl items-center sm:items-start h-16">
+          <div className="bg-sliver_black lg:w-56 xl:w-72 w-full flex flex-row sm:flex-col gap-1 p-2 rounded-xl items-center sm:items-start h-16">
             <span className="text-white text-base font-semibold">Date</span>
             <input
               type="date"
@@ -18,7 +18,7 @@ const FormSection = () => {
             />
           </div>
           <div className="flex lg:gap-2 gap-2 justify-between w-full lg:w-auto">
-            <div className="bg-sliver_black w-1/2 md:w-72 flex flex-row sm:flex-col gap-1  p-2 items-center sm:items-start rounded-xl  h-16 sm:w-full">
+            <div className="bg-sliver_black w-1/2 md:w-72  lg:w-56 xl:w-72 flex flex-row sm:flex-col gap-1  p-2 items-center sm:items-start rounded-xl  h-16 sm:w-full">
               <span className="text-white text-base font-semibold">From</span>
               <input
                 type="time"
@@ -26,7 +26,7 @@ const FormSection = () => {
               />
             </div>
 
-            <div className="bg-sliver_black w-1/2  md:w-72 flex flex-row sm:flex-col rounded-xl items-center sm:items-start gap-1 p-2 h-16 sm:w-full ">
+            <div className="bg-sliver_black w-1/2  md:w-72  lg:w-56 xl:w-72 flex flex-row sm:flex-col rounded-xl items-center sm:items-start gap-1 p-2 h-16 sm:w-full ">
               <span className="text-white text-base font-semibold ml-1">
                 To
               </span>
@@ -38,7 +38,7 @@ const FormSection = () => {
           </div>
 
           <button
-            className=" p-3 pl-3 pr-3 lg:w-72 w-full font-semibold tracking-widest text-white"
+            className=" p-3 pl-3 pr-3  w-full lg:w-56 xl:w-72 font-semibold tracking-widest text-white"
             style={{
               background:
                 "linear-gradient(96.73deg, #C1292A 27.66%, #D0631A 85.99%)",
