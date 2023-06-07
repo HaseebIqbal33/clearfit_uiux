@@ -37,13 +37,10 @@ body {
     }
   }
 
-
   .bg_responsive {
      background: url('./../public/group.png');
     
   }
-
-
 
   .bg_white_left_to_right {
     background: url('./../public/bg_gradientwhite.png');
@@ -90,16 +87,25 @@ body {
 }
   .slick-arrow {
     margin-top: -60px;
+    margin-left: 14px;
   } 
 
 .linear_gradient {
   background: "linear-gradient(to top, #282828 50%, white 50%)"
 }
 
-.date-input::-webkit-calendar-picker-indicator {
-  /* filter: invert(80%) sepia(100%) saturate(10000%) hue-rotate(0deg); */
+.polygon_comment {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 24% 75%, 18% 83%, 13% 75%, 0% 75%);
+}
+.slick-arrow::before {
+  display: none;
 }
 
-.date-input::-webkit-calendar-picker-indicator:before {
-  background-color: rgb(193, 41, 42);
+
+.slick-prev, .slick-next {
+  font-size: 15px !important;
+}
+
+ .slick-prev:before, .slick-next:before  {
+  content: '' !important;
 }

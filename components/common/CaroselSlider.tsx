@@ -1,17 +1,50 @@
 import Slider from "react-slick";
+import PrevArrow from "./PrevArrow";
+import NextArrows from "./NextArrows";
 
 interface CRProps {
   children: any;
 }
 
+function SampleNextArrow(props: any) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block" }}
+      onClick={onClick}
+    >
+      <NextArrows />
+    </div>
+  );
+}
+
+function SamplePrevArrow(props: any) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block" }}
+      onClick={onClick}
+    >
+      <PrevArrow />
+    </div>
+  );
+}
+
 const CaroselSlider = ({ children }: CRProps) => {
   var settings = {
     dots: true,
-    infinite: false,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
+    autoplay: true,
+    infinite: true,
+    autoplaySpeed: 5000,
+    cssEase: "linear",
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1400,
