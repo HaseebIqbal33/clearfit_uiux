@@ -12,18 +12,17 @@ const FormSection = () => {
           <div className="bg-sliver_black lg:w-72 w-full flex flex-row sm:flex-col gap-1 p-2 rounded-xl items-center sm:items-start h-16">
             <span className="text-white text-base font-semibold">Date</span>
             <input
-              type="text"
-              className="bg-sliver_black text-white text-sm w-full md:text-base  text-xs"
-              value={"Mon, 27 July 2022"}
+              type="date"
+              id="date"
+              className="bg-sliver_black text-white text-sm w-full md:text-base date-input focus:outline-none "
             />
           </div>
           <div className="flex lg:gap-2 gap-2 justify-between w-full lg:w-auto">
             <div className="bg-sliver_black w-1/2 md:w-72 flex flex-row sm:flex-col gap-1  p-2 items-center sm:items-start rounded-xl  h-16 sm:w-full">
               <span className="text-white text-base font-semibold">From</span>
               <input
-                type="text"
-                className="bg-sliver_black text-white md:text-base  text-xs w-full"
-                value={"07:00 AM"}
+                type="time"
+                className="bg-sliver_black text-white md:text-base  text-xs w-full focus:outline-none"
               />
             </div>
 
@@ -32,9 +31,8 @@ const FormSection = () => {
                 To
               </span>
               <input
-                type="text"
-                className="bg-sliver_black text-white md:text-base text-xs w-full"
-                value={"12:00 AM"}
+                type="time"
+                className="bg-sliver_black text-white md:text-base text-xs w-full focus:outline-none"
               />
             </div>
           </div>

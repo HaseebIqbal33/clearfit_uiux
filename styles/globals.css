@@ -1,8 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body {
@@ -10,13 +8,11 @@ body {
 }
 
 .polygon_wrapper{ 
-  filter: drop-shadow(0px -1px 11px  rgba(50, 50, 0, 0.5));
-  
+  filter: drop-shadow(0px -1px 11px  rgba(50, 50, 0, 0.5)); 
 }
 
 .hexagon {
-    clip-path: polygon(25% 0%, 75% 0%, 100% 47%, 75% 100%, 25% 100%, 0 48%);
-    
+    clip-path: polygon(25% 0%, 75% 0%, 100% 47%, 75% 100%, 25% 100%, 0 48%);   
 }
 
 
@@ -35,13 +31,63 @@ body {
     margin-right: 20px;
   }
 
-
   @media only screen and (max-width: 600px) {
     .slick-slide div {
       margin-right: 0px;
     }
   }
 
+
+  .bg_responsive {
+     background: url('./../public/group.png');
+    
+  }
+
+
+
+  .bg_white_left_to_right {
+    background: url('./../public/bg_gradientwhite.png');
+    background-size: cover;
+ }
+
+
+ 
+ @media only screen and (max-width: 600px) {
+  .bg_white_left_to_right {
+     background: url('./../public/bg_gradientwhite.png');
+    background-size: contain;
+  }
+}
+
+
+  .bg_white {
+    background: url('./../public/white_transparent.png');
+    background-size: cover;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .bg_white {
+       background: url('./../public/white_transparent.png');
+      background-size: contain;
+    }
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .bg_responsive {
+      background-size: contain;
+    }
+  }
+.rounded_bars {
+  background: url('./../public/rounded_bars.png') no-repeat;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .rounded_bars {
+    background: url('./../public/mobile_responsive.png') no-repeat;
+  }
+}
   .slick-arrow {
     margin-top: -60px;
   } 
@@ -49,4 +95,11 @@ body {
 .linear_gradient {
   background: "linear-gradient(to top, #282828 50%, white 50%)"
 }
-  
+
+.date-input::-webkit-calendar-picker-indicator {
+  /* filter: invert(80%) sepia(100%) saturate(10000%) hue-rotate(0deg); */
+}
+
+.date-input::-webkit-calendar-picker-indicator:before {
+  background-color: rgb(193, 41, 42);
+}

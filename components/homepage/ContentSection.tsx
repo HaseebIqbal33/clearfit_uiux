@@ -1,11 +1,6 @@
 const ContentSection = () => {
   return (
-    <div
-      className=" h-auto min-h-[300px] sm:min-h-[500px] relative"
-      style={{
-        background: "url('white_background.png') ",
-      }}
-    >
+    <div className=" h-auto min-h-[300px] sm:min-h-[500px] relative rounded_bars">
       <div className="container mx-auto">
         <div className="flex justify-end container mx-auto p-4 md:p-28 ">
           <div className="w-full tracking-wides right-to-left flex gap-14 flex-col text-black">
