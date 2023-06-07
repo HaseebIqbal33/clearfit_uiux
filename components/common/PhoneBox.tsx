@@ -13,9 +13,12 @@ const PhoneBox = ({
   return (
     <div className="flex gap-4 items-center">
       <Phone color={color} />
-      <span className={` ${classNames} text-base  font-semibold`}>
+      <a
+        href={`tel: ${phoneNumber}`}
+        className={` ${classNames} text-base  font-semibold`}
+      >
         {phoneNumber}
-      </span>
+      </a>
     </div>
   );
 };

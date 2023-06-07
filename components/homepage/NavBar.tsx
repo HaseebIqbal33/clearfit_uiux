@@ -17,15 +17,21 @@ const NavBar = () => {
           <div className=" flex gap-1 sm:gap-10 ">
             <div className="gap-3 flex items-center ">
               <Letter />
-              <p className="text-white text-xs font-normal hidden sm:block ">
+              <a
+                className="text-white text-xs font-normal hidden sm:block "
+                href=" mailto:INFO@CLEARFITLLC.COM"
+              >
                 INFO@CLEARFITLLC.COM
-              </p>
+              </a>
             </div>
             <div className="flex gap-3  items-center ">
               <Phone />
-              <p className="text-white font-normal text-xs hidden sm:block">
+              <a
+                className="text-white font-normal text-xs hidden sm:block"
+                href="tel:614. 470. 4134"
+              >
                 614. 470. 4134
-              </p>
+              </a>
             </div>
           </div>
           {/* left part here */}

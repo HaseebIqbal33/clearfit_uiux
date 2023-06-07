@@ -14,11 +14,12 @@ const EmailBox = ({
   return (
     <div className="flex gap-4 items-center">
       <Letter color={color} />
-      <span
+      <a
+        href={`mailto: ${email}`}
         className={` ${classNames} text-base font-semibold uppercase text-widest`}
       >
         {email}
-      </span>
+      </a>
     </div>
   );
 };
